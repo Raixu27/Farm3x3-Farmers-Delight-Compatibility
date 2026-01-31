@@ -1,0 +1,3 @@
+execute if block ~ ~ ~ farmersdelight:cabbages[age=7] positioned ~ ~ ~ run function farm3x3:harvest/offhand/break_crop {ReplantCrop:"farmersdelight:cabbages"}
+execute if block ~ ~ ~ farmersdelight:onions[age=7] positioned ~ ~ ~ run function farm3x3:harvest/offhand/break_crop {ReplantCrop:"farmersdelight:onions"}
+execute if block ~ ~ ~ farmersdelight:rice_panicles[age=3] positioned ~ ~ ~ run function farm3x3:harvest/offhand/break_crop {ReplantCrop:"farmersdelight:rice_panicles"}
